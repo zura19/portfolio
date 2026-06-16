@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">ResumeAI interface preview</title>
+  <desc id="desc">AI resume builder with editor, layout selector, and usage analytics.</desc>
+  <rect width="1400" height="788" fill="#061211"/>
+  <rect x="94" y="70" width="1212" height="648" rx="36" fill="#f7faf9"/>
+  <rect x="140" y="120" width="360" height="548" rx="26" fill="#102322"/>
+  <rect x="184" y="166" width="180" height="20" rx="10" fill="#2dd4b3"/>
+  <rect x="184" y="224" width="262" height="14" rx="7" fill="#99f6df"/>
+  <rect x="184" y="260" width="210" height="14" rx="7" fill="#99f6df"/>
+  <rect x="546" y="120" width="710" height="320" rx="30" fill="#ffffff" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="594" y="170" width="224" height="20" rx="10" fill="#107466"/>
+  <rect x="594" y="220" width="556" height="13" rx="7" fill="#9fb9b5"/>
+  <rect x="594" y="260" width="492" height="13" rx="7" fill="#d7e3e1"/>
+  <rect x="594" y="300" width="526" height="13" rx="7" fill="#d7e3e1"/>
+  <rect x="546" y="482" width="214" height="186" rx="24" fill="#ecfdf9"/>
+  <rect x="794" y="482" width="214" height="186" rx="24" fill="#ecfdf9"/>
+  <rect x="1042" y="482" width="214" height="186" rx="24" fill="#ecfdf9"/>
+  <path d="M653 622c66-76 118-83 157-22 36-52 88-48 155 10 59-88 114-94 165-18" fill="none" stroke="#14b89c" stroke-width="18" stroke-linecap="round"/>
+</svg>

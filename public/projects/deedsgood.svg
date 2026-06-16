@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">Deedsgood interface preview</title>
+  <desc id="desc">Social commerce product listing and marketplace preview.</desc>
+  <rect width="1400" height="788" fill="#102322"/>
+  <rect x="90" y="74" width="1220" height="640" rx="34" fill="#f7faf9"/>
+  <rect x="142" y="126" width="1116" height="76" rx="22" fill="#ffffff" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="188" y="154" width="238" height="18" rx="9" fill="#107466"/>
+  <rect x="936" y="148" width="256" height="30" rx="15" fill="#ccfbef"/>
+  <rect x="142" y="250" width="312" height="396" rx="28" fill="#ffffff" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="502" y="250" width="312" height="396" rx="28" fill="#ffffff" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="862" y="250" width="312" height="396" rx="28" fill="#ffffff" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="178" y="290" width="240" height="168" rx="22" fill="#14b89c"/>
+  <rect x="538" y="290" width="240" height="168" rx="22" fill="#6366f1"/>
+  <rect x="898" y="290" width="240" height="168" rx="22" fill="#14b89c"/>
+  <rect x="178" y="500" width="186" height="18" rx="9" fill="#107466"/>
+  <rect x="538" y="500" width="186" height="18" rx="9" fill="#107466"/>
+  <rect x="898" y="500" width="186" height="18" rx="9" fill="#107466"/>
+  <rect x="178" y="546" width="232" height="14" rx="7" fill="#9fb9b5"/>
+  <rect x="538" y="546" width="232" height="14" rx="7" fill="#9fb9b5"/>
+  <rect x="898" y="546" width="232" height="14" rx="7" fill="#9fb9b5"/>
+  <rect x="178" y="586" width="108" height="34" rx="17" fill="#ccfbef"/>
+  <rect x="538" y="586" width="108" height="34" rx="17" fill="#ccfbef"/>
+  <rect x="898" y="586" width="108" height="34" rx="17" fill="#ccfbef"/>
+</svg>

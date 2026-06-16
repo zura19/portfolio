@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">Lernicle interface preview</title>
+  <desc id="desc">Multi-persona education SaaS dashboard preview.</desc>
+  <rect width="1400" height="788" fill="#edf3f2"/>
+  <rect x="82" y="72" width="1236" height="644" rx="36" fill="#ffffff"/>
+  <rect x="132" y="122" width="1136" height="86" rx="24" fill="#102322"/>
+  <rect x="176" y="154" width="166" height="20" rx="10" fill="#2dd4b3"/>
+  <rect x="988" y="150" width="218" height="28" rx="14" fill="#99f6df"/>
+  <rect x="132" y="252" width="260" height="416" rx="28" fill="#ecfdf9"/>
+  <rect x="436" y="252" width="260" height="416" rx="28" fill="#f7faf9" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="740" y="252" width="260" height="416" rx="28" fill="#f7faf9" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="1044" y="252" width="224" height="416" rx="28" fill="#ecfdf9"/>
+  <circle cx="262" cy="352" r="54" fill="#14b89c"/>
+  <circle cx="566" cy="352" r="54" fill="#6366f1"/>
+  <circle cx="870" cy="352" r="54" fill="#14b89c"/>
+  <circle cx="1156" cy="352" r="54" fill="#6366f1"/>
+  <rect x="184" y="468" width="156" height="18" rx="9" fill="#107466"/>
+  <rect x="488" y="468" width="156" height="18" rx="9" fill="#107466"/>
+  <rect x="792" y="468" width="156" height="18" rx="9" fill="#107466"/>
+  <rect x="1100" y="468" width="112" height="18" rx="9" fill="#107466"/>
+  <rect x="184" y="522" width="124" height="14" rx="7" fill="#9fb9b5"/>
+  <rect x="488" y="522" width="124" height="14" rx="7" fill="#9fb9b5"/>
+  <rect x="792" y="522" width="124" height="14" rx="7" fill="#9fb9b5"/>
+  <rect x="1100" y="522" width="84" height="14" rx="7" fill="#9fb9b5"/>
+</svg>

@@ -1,0 +1,430 @@
+{
+  "Portfolio": {
+    "meta": {
+      "title": "Zura Managadze | Full-Stack Developer",
+      "description": "Enterprise portfolio for Zura Managadze, a full-stack developer in Tbilisi building AI resume systems, SaaS platforms, and commerce products."
+    },
+    "nav": [
+      {
+        "label": "Profile",
+        "href": "#about"
+      },
+      {
+        "label": "Technical Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Work Experience",
+        "href": "#work-experience"
+      },
+      {
+        "label": "Personal Projects",
+        "href": "#personal-projects"
+      },
+      {
+        "label": "Impact",
+        "href": "#case-studies"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "languages": [
+      {
+        "locale": "en",
+        "label": "English",
+        "shortLabel": "EN"
+      },
+      {
+        "locale": "ka",
+        "label": "Georgian",
+        "shortLabel": "KA"
+      }
+    ],
+    "theme": {
+      "toggleLabel": "Toggle dark mode"
+    },
+    "loader": {
+      "label": "Loading portfolio"
+    },
+    "profile": {
+      "eyebrow": "Full-stack developer in Tbilisi",
+      "name": "Zura Managadze",
+      "role": "Middle Full-stack Developer",
+      "location": "Tbilisi, Georgia",
+      "availability": "Building AI-powered systems, SaaS platforms, and commerce products",
+      "summary": "I build modern product platforms across frontend and backend, with experience in Next.js, React, TypeScript, Nest.js, Express, databases, authentication, payments, dashboards, and AI-assisted workflows.",
+      "primaryCta": "View work experience",
+      "secondaryCta": "Contact me",
+      "metrics": [
+        {
+          "value": "4 Products",
+          "label": "Skilllynk, ResumeAI, Lernicle, and Deedsgood"
+        },
+        {
+          "value": "12+ Features",
+          "label": "Auth, listings, dashboards, billing, search, realtime updates"
+        },
+        {
+          "value": "AI + SaaS",
+          "label": "Resume automation, subscriptions, quotas, and admin analytics"
+        }
+      ],
+      "links": [
+        {
+          "label": "Email",
+          "href": "mailto:zuramanagadze10@gmail.com"
+        },
+        {
+          "label": "Phone",
+          "href": "tel:+995595885673"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/zuramanagadze10"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/zura19"
+        }
+      ]
+    },
+    "sections": {
+      "about": {
+        "eyebrow": "Profile",
+        "title": "Full-stack execution across AI, SaaS, and social commerce.",
+        "intro": "A portfolio based on real product work, measurable outcomes, and modern TypeScript architecture."
+      },
+      "skills": {
+        "eyebrow": "Technical skills",
+        "title": "Frontend depth backed by production backend capability.",
+        "intro": "A stack built around React, Next.js, TypeScript, Nest.js, databases, authentication, and product delivery."
+      },
+      "workExperience": {
+        "eyebrow": "Work experience",
+        "title": "Real products shipped under real constraints.",
+        "intro": "Each card summarizes a role, the product surface and the technical ownership."
+      },
+      "personalProjects": {
+        "eyebrow": "Personal projects",
+        "title": "Independent products built from idea to deploy.",
+        "intro": "Real shipped projects covering ecommerce, social media, event booking, AI chat, and movie discovery."
+      },
+      "caseStudies": {
+        "eyebrow": "Impact",
+        "title": "Product improvements that changed usage, speed, and reliability.",
+        "intro": "Outcome-focused summaries from resume platforms, SaaS systems, and commerce work."
+      },
+      "contact": {
+        "eyebrow": "Contact",
+        "title": "Let's talk about the next product system.",
+        "intro": "Direct links for email, phone, LinkedIn, and GitHub."
+      }
+    },
+    "about": {
+      "paragraphs": [
+        "I am a full-stack developer based in Tbilisi, Georgia, focused on building production-ready web platforms with clean interfaces, reliable APIs, and scalable product flows.",
+        "My recent work includes AI-powered resume builders, resume ingestion pipelines, multi-frontend SaaS ecosystems, subscription billing, dashboards, social commerce features, authentication, search, filtering, and performance optimization."
+      ],
+      "principles": [
+        {
+          "value": "01",
+          "label": "Product flows with measurable outcomes"
+        },
+        {
+          "value": "02",
+          "label": "TypeScript-first frontend and backend architecture"
+        },
+        {
+          "value": "03",
+          "label": "Responsive, secure, and maintainable systems"
+        }
+      ]
+    },
+    "skills": [
+      {
+        "title": "Frontend",
+        "items": [
+          "HTML/CSS",
+          "JavaScript",
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "Nest.js",
+          "MongoDB",
+          "PostgreSQL",
+          "Prisma",
+          "TypeORM"
+        ]
+      },
+      {
+        "title": "Product delivery",
+        "items": [
+          "Git",
+          "GitHub",
+          "RESTful APIs",
+          "JWT",
+          "NextAuth",
+          "Redux Toolkit",
+          "Zustand",
+          "React Query",
+          "Stripe"
+        ]
+      },
+      {
+        "title": "UI systems",
+        "items": [
+          "Responsive Design",
+          "DaisyUI",
+          "Shadcn UI",
+          "MUI",
+          "Deployment",
+          "Vercel",
+          "Netlify",
+          "Render"
+        ]
+      }
+    ],
+    "workExperience": [
+      {
+        "name": "Skilllynk",
+        "type": "Middle Full-stack Developer",
+        "period": "Apr 2026 - Now",
+        "summary": "Staff management platform with resume management and AI-assisted profile creation workflows.",
+        "impact": "Processed 10+ resume types with a 90% success rate and improved AI-assisted profile creation accuracy by 10%.",
+        "bullets": [
+          "Built resume management for users to create, customize, and maintain professional resumes.",
+          "Implemented NestJS PDF ingestion and text extraction for AI-ready profile processing.",
+          "Delivered traditional and chronological timeline resume presentation formats."
+        ],
+        "stack": ["Next.js", "Nest.js", "PDF ingestion", "AI workflows"],
+        "image": "/projects/skilllynk.svg",
+        "imageAlt": "Skilllynk project interface preview",
+        "links": [
+          {
+            "label": "Visit",
+            "href": "https://skilllynk.com/"
+          }
+        ]
+      },
+      {
+        "name": "ResumeAI",
+        "type": "Middle Full-stack Developer",
+        "period": "Dec 2025 - Now",
+        "summary": "AI-driven resume builder with multi-phase data capture, 4 layouts, editable outputs, Stripe subscriptions, quotas, and dashboards.",
+        "impact": "Reduced incomplete submissions by 40% and supported tier-specific AI limits up to 500 requests per month.",
+        "bullets": [
+          "Architected end-to-end resume generation with editable final content.",
+          "Integrated Stripe subscriptions and server-side webhooks for billing synchronization.",
+          "Built user and admin dashboards for credits, billing cycles, revenue, and growth metrics."
+        ],
+        "stack": ["Next.js", "Nest.js", "Stripe", "AI", "Dashboards"],
+        "image": "/projects/resume-ai.svg",
+        "imageAlt": "ResumeAI project interface preview",
+        "links": [
+          {
+            "label": "Visit",
+            "href": "https://resumeai-eosin.vercel.app/"
+          }
+        ]
+      },
+      {
+        "name": "Lernicle (Vrep)",
+        "type": "Junior Full-stack Developer",
+        "period": "May 2025 - Dec 2025",
+        "summary": "Education SaaS platform serving Admins, Owners, Teachers, and Pupils with onboarding, email verification, multi-tenancy, and reusable UI components.",
+        "impact": "Increased school owner onboarding efficiency by 30% and accelerated frontend feature delivery by 25%.",
+        "bullets": [
+          "Architected flows for Admins, Owners, Teachers, and Pupils.",
+          "Built multi-step registration with automated email verification.",
+          "Helped migrate the backend toward modular-monolithic Nest.js, Prisma, and MySQL architecture."
+        ],
+        "stack": ["React", "Nest.js", "Prisma", "MySQL", "Shadcn UI"],
+        "image": "/projects/lernicle.svg",
+        "imageAlt": "Lernicle project interface preview",
+        "links": [
+          {
+            "label": "Visit",
+            "href": "https://www.lernicle.com/"
+          }
+        ]
+      },
+      {
+        "name": "Deedsgood",
+        "type": "Junior Full-stack Developer",
+        "period": "Nov 2024 - Mar 2025",
+        "summary": "Social e-commerce product with posting, browsing, purchasing, authentication, product listings, real-time updates, search, filtering, and pagination.",
+        "impact": "Served 5K+ active users, reduced query response times by 30%, and decreased page load times by 35%.",
+        "bullets": [
+          "Completed 12+ MERN features including authentication, product listings, and real-time updates.",
+          "Delivered JWT authentication with 99.9% system uptime.",
+          "Improved product discovery with filtering, pagination, and search."
+        ],
+        "stack": ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
+        "image": "/projects/deedsgood.svg",
+        "imageAlt": "Deedsgood project interface preview",
+        "links": [
+          {
+            "label": "Visit",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "personalProjects": [
+      {
+        "title": "Xstore",
+        "description": "Xstore is an ecommerce platform for browsing and buying tech products. Users can search, filter, favorite products, add items to cart, and complete a fake purchase flow. The experience focuses on clear product discovery, simple shopping actions, and a polished checkout journey.",
+        "stack": [
+          "Next.js",
+          "Server Actions",
+          "Tailwind CSS",
+          "TypeScript",
+          "MongoDB",
+          "OAuth",
+          "Stripe"
+        ],
+        "image": "/projects/xstore.png",
+        "link": {
+          "label": "Visit",
+          "href": "https://xstore-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "Instakilo",
+        "description": "Instakilo is a social media app inspired by Instagram. Users can create posts, like, comment, save, share, tag people, add stories, message others, and receive notifications. It also includes story and post archiving, user search, explore pages, and rich social interactions.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Express.js",
+          "PostgreSQL",
+          "Prisma",
+          "Socket.IO",
+          "Cloudinary"
+        ],
+        "image": "/projects/instakilo.png",
+        "link": {
+          "label": "Visit",
+          "href": "https://instakilo-client.vercel.app/"
+        }
+      },
+      {
+        "title": "Evently",
+        "description": "Evently is an event booking system for discovering events and buying tickets. Users can sign in, manage profiles, reset forgotten passwords, favorite events, and view booked events. Admins can create and edit events, while sold-out dates and unavailable tickets are handled clearly.",
+        "stack": [
+          "Next.js",
+          "Server Actions",
+          "Stripe",
+          "Tailwind CSS",
+          "TypeScript",
+          "MongoDB"
+        ],
+        "image": null,
+        "link": {
+          "label": "Visit",
+          "href": "https://evently-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "AI Chat",
+        "description": "AI Chat is a realtime AI messaging app where users can log in and continue saved conversations later. Answers stream live, and the assistant uses previous conversation context for better responses. The experience is built around fast chat, persistent history, and natural follow-up questions.",
+        "stack": [
+          "React",
+          "Vite",
+          "Tailwind CSS",
+          "TypeScript",
+          "Express.js",
+          "Gemini SDK",
+          "Socket.IO",
+          "JWT"
+        ],
+        "image": "/projects/ai-chat.png",
+        "link": {
+          "label": "Visit",
+          "href": "https://ai-chat-client-blush.vercel.app/"
+        }
+      },
+      {
+        "title": "Moviefy",
+        "description": "Moviefy is a movie discovery page built quickly with Codex. Users can view featured movies, search by name, and open movie detail pages with actors, trailers, reviews, and image galleries. Clicking an image opens a modal carousel for browsing movie visuals.",
+        "stack": [
+          "Next.js",
+          "API Routes",
+          "TypeScript",
+          "Tailwind CSS",
+          "next-i18n",
+          "TMDB API"
+        ],
+        "image": "/projects/moviefy.png",
+        "link": {
+          "label": "Visit",
+          "href": "https://moviefymdb.vercel.app/"
+        }
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "AI resume workflow",
+        "summary": "Built resume creation, PDF ingestion, structured data extraction, editable outputs, layout selection, and AI-assisted profile generation workflows.",
+        "metrics": [
+          {
+            "value": "90%",
+            "label": "resume creation success rate"
+          },
+          {
+            "value": "10%",
+            "label": "profile accuracy improvement"
+          }
+        ]
+      },
+      {
+        "title": "SaaS platform delivery",
+        "summary": "Delivered multi-persona SaaS flows, reusable UI architecture, registration improvements, and multi-tenant backend migration support.",
+        "metrics": [
+          {
+            "value": "30%",
+            "label": "onboarding efficiency gain"
+          },
+          {
+            "value": "25%",
+            "label": "faster frontend feature delivery"
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Available for new opportunities",
+      "summary": "Reach out for roles, collaborations, product work, or to request demos of the work in this portfolio.",
+      "emailLabel": "Email Me",
+      "scheduleLabel": "View LinkedIn",
+      "links": [
+        {
+          "label": "Email",
+          "href": "mailto:zuramanagadze10@gmail.com"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/zuramanagadze10"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/zura19"
+        },
+        {
+          "label": "Phone",
+          "href": "tel:+995595885673"
+        }
+      ]
+    }
+  }
+}

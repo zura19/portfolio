@@ -1,0 +1,430 @@
+{
+  "Portfolio": {
+    "meta": {
+      "title": "ზურა მანაგაძე | Full-Stack დეველოპერი",
+      "description": "ზურა მანაგაძის პროფესიონალური პორტფოლიო: full-stack დეველოპერი თბილისიდან, რომელიც ქმნის AI რეზიუმე სისტემებს, SaaS პლატფორმებს და commerce პროდუქტებს."
+    },
+    "nav": [
+      {
+        "label": "პროფილი",
+        "href": "#about"
+      },
+      {
+        "label": "ტექნიკური უნარები",
+        "href": "#skills"
+      },
+      {
+        "label": "სამუშაო გამოცდილება",
+        "href": "#work-experience"
+      },
+      {
+        "label": "პერსონალური პროექტები",
+        "href": "#personal-projects"
+      },
+      {
+        "label": "შედეგები",
+        "href": "#case-studies"
+      },
+      {
+        "label": "კონტაქტი",
+        "href": "#contact"
+      }
+    ],
+    "languages": [
+      {
+        "locale": "en",
+        "label": "ინგლისური",
+        "shortLabel": "EN"
+      },
+      {
+        "locale": "ka",
+        "label": "ქართული",
+        "shortLabel": "KA"
+      }
+    ],
+    "theme": {
+      "toggleLabel": "მუქი რეჟიმის გადართვა"
+    },
+    "loader": {
+      "label": "პორტფოლიო იტვირთება"
+    },
+    "profile": {
+      "eyebrow": "Full-stack დეველოპერი თბილისიდან",
+      "name": "ზურა მანაგაძე",
+      "role": "Middle Full-stack დეველოპერი",
+      "location": "თბილისი, საქართველო",
+      "availability": "ვქმნი AI-ზე დაფუძნებულ სისტემებს, SaaS პლატფორმებს და commerce პროდუქტებს",
+      "summary": "ვქმნი თანამედროვე პროდუქტის პლატფორმებს frontend-სა და backend-ში. გამოცდილება მაქვს Next.js, React, TypeScript, Nest.js, Express, მონაცემთა ბაზებთან, ავთენტიფიკაციასთან, გადახდებთან, dashboards-თან და AI-ის დახმარებით სამუშაო პროცესებთან.",
+      "primaryCta": "გამოცდილების ნახვა",
+      "secondaryCta": "დაკავშირება",
+      "metrics": [
+        {
+          "value": "4 პროდუქტი",
+          "label": "Skilllynk, ResumeAI, Lernicle და Deedsgood"
+        },
+        {
+          "value": "12+ ფუნქცია",
+          "label": "ავტორიზაცია, listings, dashboards, billing, search და real-time updates"
+        },
+        {
+          "value": "AI + SaaS",
+          "label": "რეზიუმეების ავტომატიზაცია, subscriptions, quotas და admin analytics"
+        }
+      ],
+      "links": [
+        {
+          "label": "მეილი",
+          "href": "mailto:zuramanagadze10@gmail.com"
+        },
+        {
+          "label": "მობილური",
+          "href": "tel:+995595885673"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/zuramanagadze10"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/zura19"
+        }
+      ]
+    },
+    "sections": {
+      "about": {
+        "eyebrow": "პროფილი",
+        "title": "Full-stack პროდუქტის განვითარება AI, SaaS და social commerce მიმართულებებში.",
+        "intro": "პორტფოლიო დაფუძნებულია რეალურ პროდუქტულ გამოცდილებაზე, გაზომვად შედეგებსა და თანამედროვე TypeScript არქიტექტურაზე."
+      },
+      "skills": {
+        "eyebrow": "ტექნიკური უნარები",
+        "title": "ღრმა frontend გამოცდილება production backend შესაძლებლობებით.",
+        "intro": "სტეკი React, Next.js, TypeScript, Nest.js, მონაცემთა ბაზები, ავთენტიფიკაცია და პროდუქტის მიწოდება."
+      },
+      "workExperience": {
+        "eyebrow": "სამუშაო გამოცდილება",
+        "title": "რეალური პროდუქტები რეალური შეზღუდვების პირობებში.",
+        "intro": "თითოეული ბარათი აჯამებს როლს, პროდუქტის არეალს და ტექნიკურ პასუხისმგებლობას."
+      },
+      "caseStudies": {
+        "eyebrow": "გავლენა",
+        "title": "პროდუქტის გაუმჯობესებები, რომლებმაც შეცვალა გამოყენებადობა, სისწრაფე და საიმედოობა.",
+        "intro": "შედეგზე ორიენტირებული შეჯამებები რეზიუმე პლატფორმებიდან, SaaS სისტემებიდან და commerce პროდუქტებიდან."
+      },
+      "contact": {
+        "eyebrow": "კონტაქტი",
+        "title": "ვისაუბროთ შემდეგ პროდუქტულ სისტემაზე.",
+        "intro": "პირდაპირი ბმულები ელ-ფოსტისთვის, მობილურისთვის, LinkedIn-ისთვის და GitHub-ისთვის."
+      },
+      "personalProjects": {
+        "eyebrow": "პერსონალური პროექტები",
+        "title": "დამოუკიდებელი პროდუქტები იდეიდან deploy-მდე.",
+        "intro": "რეალურად გაშვებული პროექტები ecommerce, social media, event booking, AI chat და movie discovery მიმართულებებში."
+      }
+    },
+    "about": {
+      "paragraphs": [
+        "მე ვარ full-stack დეველოპერი თბილისიდან. ვქმნი production-ready ვებ პლატფორმებს სუფთა ინტერფეისებით, საიმედო API-ებით და მასშტაბირებადი product flows-ით.",
+        "ჩემი ბოლო გამოცდილება მოიცავს AI-powered resume builders, resume ingestion pipelines, multi-frontend SaaS ecosystems, subscription billing, dashboards, social commerce features, authentication, search/filtering და performance optimization."
+      ],
+      "principles": [
+        {
+          "value": "01",
+          "label": "პროდუქტის flows გაზომვადი შედეგებით"
+        },
+        {
+          "value": "02",
+          "label": "TypeScript-first frontend და backend არქიტექტურა"
+        },
+        {
+          "value": "03",
+          "label": "რესპონსიული, უსაფრთხო და მარტივად სამართავი სისტემები"
+        }
+      ]
+    },
+    "skills": [
+      {
+        "title": "Frontend",
+        "items": [
+          "HTML/CSS",
+          "JavaScript",
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "Nest.js",
+          "MongoDB",
+          "PostgreSQL",
+          "Prisma",
+          "TypeORM"
+        ]
+      },
+      {
+        "title": "პროდუქტის მიწოდება",
+        "items": [
+          "Git",
+          "GitHub",
+          "RESTful APIs",
+          "JWT",
+          "NextAuth",
+          "Redux Toolkit",
+          "Zustand",
+          "React Query",
+          "Stripe"
+        ]
+      },
+      {
+        "title": "UI სისტემები",
+        "items": [
+          "Responsive Design",
+          "DaisyUI",
+          "Shadcn UI",
+          "MUI",
+          "Deployment",
+          "Vercel",
+          "Netlify",
+          "Render"
+        ]
+      }
+    ],
+    "workExperience": [
+      {
+        "name": "Skilllynk",
+        "type": "Middle Full-stack დეველოპერი",
+        "period": "2026 აპრილი - ამჟამად",
+        "summary": "Staff management პლატფორმა რეზიუმეების მართვისა და AI-ის დახმარებით პროფილების შექმნის workflow-ებით.",
+        "impact": "10+ ტიპის რეზიუმე დამუშავდა 90% წარმატების მაჩვენებლით, ხოლო AI-assisted profile creation-ის სიზუსტე 10%-ით გაუმჯობესდა.",
+        "bullets": [
+          "ავაშენე რეზიუმეების მართვის მოდული, სადაც მომხმარებლებს პროფესიული რეზიუმეების შექმნა, მორგება და მართვა შეუძლიათ.",
+          "დავნერგე NestJS-ზე PDF ingestion და ტექსტის ამოღება AI-ready profile processing-ისთვის.",
+          "მივაწოდე ორი ფორმატი: traditional და chronological timeline resume layouts."
+        ],
+        "stack": ["Next.js", "Nest.js", "PDF ingestion", "AI workflows"],
+        "image": "/projects/skilllynk.svg",
+        "imageAlt": "Skilllynk პროექტის ინტერფეისის პრევიუ",
+        "links": [
+          {
+            "label": "ნახვა",
+            "href": "https://skilllynk.com/"
+          }
+        ]
+      },
+      {
+        "name": "ResumeAI",
+        "type": "Middle Full-stack დეველოპერი",
+        "period": "2025 დეკემბერი - ამჟამად",
+        "summary": "AI-driven რეზიუმე builder მრავალფაზიანი data capture-ით, 4 layout-ით, editable outputs-ით, Stripe subscriptions-ით, quotas-ით და dashboards-ით.",
+        "impact": "Incomplete submissions 40%-ით შემცირდა და tier-specific AI limits თვეში 500 request-მდე მხარდაჭერილია.",
+        "bullets": [
+          "დავაპროექტე end-to-end რეზიუმე generation, სადაც საბოლოო კონტენტი სრულად რედაქტირებადია.",
+          "დავაინტეგრირე Stripe subscriptions და server-side webhooks billing synchronization-ისთვის.",
+          "ავაშენე user და admin dashboards credits, billing cycles, revenue და growth metrics-ის სანახავად."
+        ],
+        "stack": ["Next.js", "Nest.js", "Stripe", "AI", "Dashboards"],
+        "image": "/projects/resume-ai.svg",
+        "imageAlt": "ResumeAI პროექტის ინტერფეისის პრევიუ",
+        "links": [
+          {
+            "label": "ნახვა",
+            "href": "https://resumeai-eosin.vercel.app/"
+          }
+        ]
+      },
+      {
+        "name": "Lernicle (Vrep)",
+        "type": "Junior Full-stack დეველოპერი",
+        "period": "2025 მაისი - 2025 დეკემბერი",
+        "summary": "Education SaaS პლატფორმა Admin, Owner, Teacher და Pupil პერსონებისთვის, onboarding-ით, email verification-ით, multi-tenancy-ით და reusable UI components-ით.",
+        "impact": "School owner onboarding-ის ეფექტიანობა 30%-ით გაიზარდა, ხოლო frontend ფუნქციების მიწოდება 25%-ით დაჩქარდა.",
+        "bullets": [
+          "დავაპროექტე flows Admin, Owner, Teacher და Pupil პერსონებისთვის.",
+          "ავაშენე multi-step registration automated email verification-ით.",
+          "მონაწილეობა მივიღე backend migration-ში Nest.js, Prisma და MySQL modular-monolithic architecture-ისკენ."
+        ],
+        "stack": ["React", "Nest.js", "Prisma", "MySQL", "Shadcn UI"],
+        "image": "/projects/lernicle.svg",
+        "imageAlt": "Lernicle პროექტის ინტერფეისის პრევიუ",
+        "links": [
+          {
+            "label": "ნახვა",
+            "href": "https://www.lernicle.com/"
+          }
+        ]
+      },
+      {
+        "name": "Deedsgood",
+        "type": "Junior Full-stack დეველოპერი",
+        "period": "2024 ნოემბერი - 2025 მარტი",
+        "summary": "Social e-commerce პროდუქტი posting, browsing, purchasing, authentication, product listings, real-time updates, search, filtering და pagination flows-ით.",
+        "impact": "პლატფორმა ემსახურებოდა 5K+ active user-ს, query response time 30%-ით შემცირდა და page load time 35%-ით გაუმჯობესდა.",
+        "bullets": [
+          "დავასრულე 12+ MERN feature, მათ შორის authentication, product listings და real-time updates.",
+          "მივაწოდე JWT authentication 99.9% system uptime-ით.",
+          "გავაუმჯობესე product discovery filtering-ით, pagination-ით და search-ით."
+        ],
+        "stack": ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
+        "image": "/projects/deedsgood.svg",
+        "imageAlt": "Deedsgood პროექტის ინტერფეისის პრევიუ",
+        "links": [
+          {
+            "label": "ნახვა",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "AI რეზიუმეების workflow",
+        "summary": "ავაშენე რეზიუმეების შექმნის, PDF ingestion-ის, structured data extraction-ის, editable outputs-ის, layout selection-ის და AI-assisted profile generation-ის workflows.",
+        "metrics": [
+          {
+            "value": "90%",
+            "label": "რეზიუმეს შექმნის წარმატების მაჩვენებელი"
+          },
+          {
+            "value": "10%",
+            "label": "პროფილის სიზუსტის გაუმჯობესება"
+          }
+        ]
+      },
+      {
+        "title": "SaaS პლატფორმის მიწოდება",
+        "summary": "მივაწოდე multi-persona SaaS flows, reusable UI architecture, registration improvements და multi-tenant backend migration support.",
+        "metrics": [
+          {
+            "value": "30%",
+            "label": "onboarding-ის ეფექტიანობის ზრდა"
+          },
+          {
+            "value": "25%",
+            "label": "frontend ფუნქციების უფრო სწრაფი მიწოდება"
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "title": "ღია ვარ ახალი შესაძლებლობებისთვის",
+      "summary": "დამიკავშირდით როლებზე, კოლაბორაციებზე, პროდუქტის განვითარებაზე ან პორტფოლიოში ნაჩვენები სამუშაოების დემოს სანახავად.",
+      "emailLabel": "ჩემი ელ-ფოსტა",
+      "scheduleLabel": "LinkedIn-ის ნახვა",
+      "links": [
+        {
+          "label": "ელ-ფოსტა",
+          "href": "mailto:zuramanagadze10@gmail.com"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/zuramanagadze10"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/zura19"
+        },
+        {
+          "label": "მობილური",
+          "href": "tel:+995595885673"
+        }
+      ]
+    },
+    "personalProjects": [
+      {
+        "title": "Xstore",
+        "description": "Xstore არის ecommerce პლატფორმა ტექნოლოგიური პროდუქტების ძიებისა და შეძენის იმიტირებული პროცესისთვის. მომხმარებლებს შეუძლიათ პროდუქტების ძებნა, გაფილტვრა, ფავორიტებში დამატება, კალათაში ჩასმა და fake purchase flow-ის დასრულება. პროექტი ფოკუსირებულია მკაფიო product discovery-ზე, მარტივ shopping actions-ზე და დახვეწილ checkout journey-ზე.",
+        "stack": [
+          "Next.js",
+          "Server Actions",
+          "Tailwind CSS",
+          "TypeScript",
+          "MongoDB",
+          "OAuth",
+          "Stripe"
+        ],
+        "image": "/projects/xstore.png",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://xstore-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "Instakilo",
+        "description": "Instakilo არის Instagram-ის სტილის social media აპლიკაცია. მომხმარებლებს შეუძლიათ პოსტების დამატება, მოწონება, კომენტარის დაწერა, შენახვა, გაზიარება, სხვა მომხმარებლების მონიშვნა, stories-ის დამატება, messaging და notifications-ის მიღება. ასევე აქვს story და post archiving, user search, explore page და მდიდარი social interactions.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Express.js",
+          "PostgreSQL",
+          "Prisma",
+          "Socket.IO",
+          "Cloudinary"
+        ],
+        "image": "/projects/instakilo.png",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://instakilo-client.vercel.app/"
+        }
+      },
+      {
+        "title": "Evently",
+        "description": "Evently არის event booking სისტემა ღონისძიებების პოვნისა და ბილეთების შეძენისთვის. მომხმარებლებს შეუძლიათ შესვლა, პროფილის მართვა, დავიწყებული პაროლის აღდგენა, events-ის ფავორიტებში დამატება და booked events-ის ნახვა. Admin-ს შეუძლია events-ის შექმნა და რედაქტირება, ხოლო sold-out dates და unavailable tickets მკაფიოდ მუშავდება.",
+        "stack": [
+          "Next.js",
+          "Server Actions",
+          "Stripe",
+          "Tailwind CSS",
+          "TypeScript",
+          "MongoDB"
+        ],
+        "image": null,
+        "link": {
+          "label": "ნახვა",
+          "href": "https://evently-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "AI Chat",
+        "description": "AI Chat არის real-time AI ჩატის აპლიკაცია, სადაც მომხმარებლებს შეუძლიათ შესვლა და შენახული conversations-ის მოგვიანებით გაგრძელება. პასუხები live stream-დება, ხოლო assistant previous conversation context-ს იყენებს უკეთესი პასუხებისთვის. გამოცდილება ფოკუსირებულია სწრაფ chat-ზე, persistent history-ზე და natural follow-up questions-ზე.",
+        "stack": [
+          "React",
+          "Vite",
+          "Tailwind CSS",
+          "TypeScript",
+          "Express.js",
+          "Gemini SDK",
+          "Socket.IO",
+          "JWT"
+        ],
+        "image": "/projects/ai-chat.png",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://ai-chat-client-blush.vercel.app/"
+        }
+      },
+      {
+        "title": "Moviefy",
+        "description": "Moviefy არის movie discovery გვერდი, რომელიც Codex-ით სწრაფად ავაწყე. მომხმარებლებს შეუძლიათ featured movies-ის ნახვა, სახელით ძებნა და movie detail pages-ის გახსნა actors-ით, trailers-ით, reviews-ით და image galleries-ით. სურათზე დაჭერისას იხსნება modal carousel movie visuals-ის სანახავად.",
+        "stack": [
+          "Next.js",
+          "API Routes",
+          "TypeScript",
+          "Tailwind CSS",
+          "next-i18n",
+          "TMDB API"
+        ],
+        "image": "/projects/moviefy.png",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://moviefymdb.vercel.app/"
+        }
+      }
+    ]
+  }
+}

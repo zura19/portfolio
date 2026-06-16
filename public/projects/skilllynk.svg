@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">Skilllynk interface preview</title>
+  <desc id="desc">Enterprise staff management and resume ingestion dashboard preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="788" fill="url(#bg)"/>
+  <rect x="88" y="72" width="1224" height="644" rx="32" fill="#f8fffd"/>
+  <rect x="128" y="118" width="210" height="552" rx="22" fill="#d9f7ef"/>
+  <rect x="382" y="118" width="850" height="118" rx="24" fill="#102322"/>
+  <rect x="414" y="156" width="224" height="22" rx="11" fill="#2dd4b3"/>
+  <rect x="414" y="192" width="516" height="14" rx="7" fill="#99f6df"/>
+  <rect x="382" y="272" width="392" height="180" rx="24" fill="#ecfdf9" stroke="#99f6df" stroke-width="4"/>
+  <rect x="822" y="272" width="410" height="180" rx="24" fill="#ecfdf9" stroke="#99f6df" stroke-width="4"/>
+  <rect x="382" y="492" width="850" height="178" rx="24" fill="#ffffff" stroke="#d7e7e5" stroke-width="4"/>
+  <rect x="430" y="530" width="344" height="18" rx="9" fill="#107466"/>
+  <rect x="430" y="570" width="716" height="14" rx="7" fill="#9fb9b5"/>
+  <rect x="430" y="606" width="610" height="14" rx="7" fill="#d7e3e1"/>
+  <circle cx="232" cy="194" r="58" fill="#14b89c"/>
+  <rect x="164" y="296" width="138" height="18" rx="9" fill="#107466"/>
+  <rect x="164" y="342" width="108" height="16" rx="8" fill="#445f5b"/>
+  <rect x="164" y="388" width="132" height="16" rx="8" fill="#445f5b"/>
+</svg>
