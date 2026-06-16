@@ -293,7 +293,7 @@
           "OAuth",
           "Stripe"
         ],
-        "image": "/projects/xstore.png",
+        "image": "/projects/xstore.PNG",
         "link": {
           "label": "Visit",
           "href": "https://xstore-zura.vercel.app/"
@@ -312,7 +312,7 @@
           "Socket.IO",
           "Cloudinary"
         ],
-        "image": "/projects/instakilo.png",
+        "image": "/projects/instakilo.PNG",
         "link": {
           "label": "Visit",
           "href": "https://instakilo-client.vercel.app/"
@@ -348,7 +348,7 @@
           "Socket.IO",
           "JWT"
         ],
-        "image": "/projects/ai-chat.png",
+        "image": "/projects/ai-chat.PNG",
         "link": {
           "label": "Visit",
           "href": "https://ai-chat-client-blush.vercel.app/"
@@ -365,7 +365,7 @@
           "next-i18n",
           "TMDB API"
         ],
-        "image": "/projects/moviefy.png",
+        "image": "/projects/moviefy.PNG",
         "link": {
           "label": "Visit",
           "href": "https://moviefymdb.vercel.app/"
