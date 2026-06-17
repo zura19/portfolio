@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { InitialLoader } from "@/infrastructure/layouts/portfolio-loader/InitialLoader";
 import { PortfolioNav } from "@/infrastructure/layouts/portfolio-navigation/PortfolioNav";
+import { ProjectAvailabilityNotice } from "@/infrastructure/layouts/portfolio-warning/ProjectAvailabilityNotice";
 import { ContactSection } from "./components/contact/ContactSection";
 import { PortfolioHero } from "./components/hero/PortfolioHero";
 import { CaseStudyCard } from "./components/impact/CaseStudyCard";
@@ -31,6 +32,7 @@ export function PortfolioPage({ content, locale }: PortfolioPageProps) {
   return (
     <div className="min-h-screen overflow-hidden bg-background text-foreground">
       <PortfolioNav content={content} locale={locale} />
+      <ProjectAvailabilityNotice notice={content.projectNotice} />
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

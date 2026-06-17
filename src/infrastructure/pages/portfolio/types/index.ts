@@ -73,6 +73,11 @@ export type PortfolioContent = {
   languages: { locale: Locale; label: string; shortLabel: string }[];
   theme: { toggleLabel: string };
   loader: { label: string };
+  projectNotice: {
+    title: string;
+    message: string;
+    closeLabel: string;
+  };
   profile: {
     eyebrow: string;
     name: string;
