@@ -31,7 +31,7 @@ export function PortfolioNav({ content, locale }: PortfolioNavProps) {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4">
         <Link
-          href="/"
+          href="/#hero"
           className="flex min-w-0 items-center gap-3 text-sm font-semibold text-foreground"
         >
           <span className="grid size-9 shrink-0 place-items-center rounded-full bg-primary-500 text-sm text-white">

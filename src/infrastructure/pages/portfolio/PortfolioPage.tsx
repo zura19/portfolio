@@ -72,7 +72,10 @@ export function PortfolioPage({ content, locale }: PortfolioPageProps) {
           index="04"
           variant="personal"
         >
-          <PersonalProjectsGrid projects={content.personalProjects} />
+          <PersonalProjectsGrid
+            projects={content.personalProjects}
+            showMoreLabel={content.projectActions.showMore}
+          />
         </SectionShell>
 
         <SectionShell

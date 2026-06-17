@@ -78,6 +78,9 @@ export type PortfolioContent = {
     message: string;
     closeLabel: string;
   };
+  projectActions: {
+    showMore: string;
+  };
   profile: {
     eyebrow: string;
     name: string;

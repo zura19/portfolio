@@ -1,64 +1,57 @@
 "use client";
 
-import Image from "next/image";
-import { Badge, LinkButtonGroup, ShinyCard } from "@/infrastructure/libs";
+import { useState } from "react";
+import { Button } from "@/infrastructure/libs";
 import type { PersonalProjectItem } from "../../types";
-import { PersonalProjectPreview } from "./PersonalProjectPreview";
+import { PersonalProjectCard } from "./PersonalProjectCard";
 
 type PersonalProjectsGridProps = {
   projects: PersonalProjectItem[];
+  showMoreLabel: string;
 };
 
-export function PersonalProjectsGrid({ projects }: PersonalProjectsGridProps) {
+const visibleProjectCount = 5;
+const fadedProjectCount = 6;
+
+export function PersonalProjectsGrid({
+  projects,
+  showMoreLabel,
+}: PersonalProjectsGridProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const visibleProjects = isExpanded
+    ? projects
+    : projects.slice(0, fadedProjectCount);
+
   return (
-    <div className="grid gap-5">
-      {projects.map((project) => (
-        <ShinyCard
-          className="p-0"
-          contentClassName="grid md:grid-cols-[0.82fr_1.18fr]"
-          key={project.title}
-        >
-          <div className="relative min-h-56 overflow-hidden rounded-t-lg border-b border-border-100 md:rounded-l-lg md:rounded-tr-none md:border-b-0 md:border-r">
-            {project.image ? (
-              <Image
-                alt={project.imageAlt ?? project.title}
-                className="object-cover"
-                fill
-                src={project.image}
-              />
-            ) : (
-              <PersonalProjectPreview
-                title={project.title}
-                stack={project.stack}
-              />
-            )}
-          </div>
-          <div className="flex flex-col p-6 text-center sm:text-left">
-            <div>
-              <p className="text-sm font-semibold text-primary-700 dark:text-primary-600">
-                Personal project
-              </p>
-              <h3 className="mt-2 text-2xl font-semibold text-foreground">
-                {project.title}
-              </h3>
-              <p className="mt-5 text-base leading-8 text-muted-700 dark:text-muted-700">
-                {project.description}
-              </p>
+    <div className="relative">
+      <div className="grid gap-5">
+        {visibleProjects.map((project, index) => {
+          const shouldFadeProject =
+            !isExpanded && index === visibleProjectCount;
+
+          if (!shouldFadeProject) {
+            return (
+              <PersonalProjectCard key={project.title} project={project} />
+            );
+          }
+
+          return (
+            <div className="relative" key={project.title}>
+              <PersonalProjectCard project={project} />
+              <div className="pointer-events-none absolute inset-0 z-30 flex items-end justify-center rounded-lg bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,rgba(0,0,0,0.5)_42%,rgba(0,0,0,0.9)_100%)] px-5 pb-10">
+                <Button
+                  className="pointer-events-auto"
+                  onClick={() => setIsExpanded(true)}
+                  size="lg"
+                  variant="primary"
+                >
+                  {showMoreLabel}
+                </Button>
+              </div>
             </div>
-            <div className="mt-5 flex flex-wrap justify-center gap-2 sm:justify-start">
-              {project.stack.map((item) => (
-                <Badge key={item} variant="muted">
-                  {item}
-                </Badge>
-              ))}
-            </div>
-            <LinkButtonGroup
-              className="mt-auto justify-center pt-6 sm:justify-start"
-              links={[project.link]}
-            />
-          </div>
-        </ShinyCard>
-      ))}
+          );
+        })}
+      </div>
     </div>
   );
 }

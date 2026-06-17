@@ -53,6 +53,9 @@
       "message": "Some websites can be temporarily unavailable if a database is paused, a server host is removed, a free hosting service sleeps, or the provider has availability issues.",
       "closeLabel": "Hide project availability notice"
     },
+    "projectActions": {
+      "showMore": "Show more"
+    },
     "profile": {
       "eyebrow": "Full-stack developer in Tbilisi",
       "name": "Zura Managadze",
