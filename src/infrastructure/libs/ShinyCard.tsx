@@ -35,8 +35,6 @@ export function ShinyCard({
   }
 
   function handleMouseLeave(event: MouseEvent<HTMLDivElement>) {
-    event.currentTarget.style.setProperty("--shine-x", "50%");
-    event.currentTarget.style.setProperty("--shine-y", "50%");
     onMouseLeave?.(event);
   }
 

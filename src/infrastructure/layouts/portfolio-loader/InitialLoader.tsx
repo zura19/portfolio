@@ -29,7 +29,7 @@ export function InitialLoader({ name, label }: InitialLoaderProps) {
         <p className="mt-6 text-sm font-semibold uppercase tracking-[0.24em] text-primary-700 dark:text-primary-600">
           {label}
         </p>
-        <h1 className="text-gradient mt-4 text-4xl font-semibold leading-tight">
+        <h1 className="text-gradient mt-4 text-4xl sm:text-7xl font-extrabold leading-tight">
           {name}
         </h1>
         <div className="mt-8 h-1.5 w-56 overflow-hidden rounded-full bg-muted-100 dark:bg-muted-200">
