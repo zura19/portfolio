@@ -346,72 +346,69 @@
     },
     "personalProjects": [
       {
-        "title": "Xstore",
-        "description": "Xstore არის ecommerce პლატფორმა ტექნოლოგიური პროდუქტების ძიებისა და შეძენის იმიტირებული პროცესისთვის. მომხმარებლებს შეუძლიათ პროდუქტების ძებნა, გაფილტვრა, ფავორიტებში დამატება, კალათაში ჩასმა და fake purchase flow-ის დასრულება. პროექტი ფოკუსირებულია მკაფიო product discovery-ზე, მარტივ shopping actions-ზე და დახვეწილ checkout journey-ზე.",
-        "stack": [
-          "Next.js",
-          "Server Actions",
-          "Tailwind CSS",
-          "TypeScript",
-          "MongoDB",
-          "OAuth",
-          "Stripe"
-        ],
-        "image": "/projects/xstore.PNG",
+        "title": "Forkify",
+        "description": "Forkify ჩემი პირველი სერიოზული ვებსაიტი იყო, რომელიც თავიდან ბოლომდე ავაწყე. მომხმარებლებს შეუძლიათ რეცეპტების ძებნა, paginated შედეგების ნახვა, servings-ის შეცვლა და რეცეპტების bookmark-ში დამატება. ამ პროექტმა React hooks, state, effects და event handling პრაქტიკულად გამაგებინა.",
+        "stack": ["React", "CSS", "JavaScript"],
+        "image": "/projects/forkify.PNG",
         "link": {
           "label": "ნახვა",
-          "href": "https://xstore-zura.vercel.app/"
+          "href": "https://forkify-zura.netlify.app/"
         }
       },
       {
-        "title": "Instakilo",
-        "description": "Instakilo არის Instagram-ის სტილის social media აპლიკაცია. მომხმარებლებს შეუძლიათ პოსტების დამატება, მოწონება, კომენტარის დაწერა, შენახვა, გაზიარება, სხვა მომხმარებლების მონიშვნა, stories-ის დამატება, messaging და notifications-ის მიღება. ასევე აქვს story და post archiving, user search, explore page და მდიდარი social interactions.",
-        "stack": [
-          "Next.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Express.js",
-          "PostgreSQL",
-          "Prisma",
-          "Socket.IO",
-          "Cloudinary"
-        ],
-        "image": "/projects/instakilo.PNG",
+        "title": "UsePopcorn",
+        "description": "UsePopcorn არის movie search აპლიკაცია, რომელმაც ჩემი React უნარები შემდეგ დონეზე აიყვანა. მომხმარებლებს შეუძლიათ ფილმების ძებნა, favorites-ში დამატება, შეფასება და საშუალო rating-ისა და duration-ის სტატისტიკის ნახვა. Favorite movies ასევე sortable არის IMDb rating-ით, personal rating-ით, duration-ით და სხვა პარამეტრებით.",
+        "stack": ["React", "CSS", "JavaScript"],
+        "image": "/projects/usepopcorn.PNG",
         "link": {
           "label": "ნახვა",
-          "href": "https://instakilo-client.vercel.app/"
+          "href": "https://usepopcorn-zura.netlify.app/"
         }
       },
       {
-        "title": "Evently",
-        "description": "Evently არის event booking სისტემა ღონისძიებების პოვნისა და ბილეთების შეძენისთვის. მომხმარებლებს შეუძლიათ შესვლა, პროფილის მართვა, დავიწყებული პაროლის აღდგენა, events-ის ფავორიტებში დამატება და booked events-ის ნახვა. Admin-ს შეუძლია events-ის შექმნა და რედაქტირება, ხოლო sold-out dates და unavailable tickets მკაფიოდ მუშავდება.",
-        "stack": [
-          "Next.js",
-          "Server Actions",
-          "Stripe",
-          "Tailwind CSS",
-          "TypeScript",
-          "MongoDB"
-        ],
+        "title": "Fast Pizza",
+        "description": "Fast Pizza ჩემი React გზის შემდეგი ნაბიჯი იყო. მომხმარებლებს შეუძლიათ fake food order-ის შექმნა, cart-ის მართვა და რამდენიმე გვერდს შორის გადაადგილება. პროექტში cart state-ისთვის Redux გამოვიყენე, ხოლო გვერდებისთვის React Router.",
+        "stack": ["React", "Tailwind CSS", "JavaScript", "React Router", "Redux"],
+        "image": "/projects/fast-pizza.PNG",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://fastpizza-zura.netlify.app/"
+        }
+      },
+      {
+        "title": "Shopping Cart",
+        "description": "Shopping Cart ჩემი პირველი full-stack აპლიკაცია იყო. მომხმარებლებს შეუძლიათ backend-იდან ტანსაცმლის მონაცემების მიღება და დათვალიერება. მე დავაპროექტე MongoDB schema clothes-ისთვის და Node/Express-ით server-side CRUD ოპერაციები ავაშენე.",
+        "stack": ["React", "Tailwind CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+        "image": "/projects/shopping-cart.PNG",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://shopping-cart-client-six.vercel.app/"
+        }
+      },
+      {
+        "title": "Saas",
+        "description": "Saas არის subscription-style აპლიკაცია advanced authentication-ით და plan-based access-ით. მომხმარებლებს შეუძლიათ რეგისტრაცია, კონკრეტული plan-ის არჩევა და მხოლოდ იმ tier-ის posts-ის ნახვა, რომელზეც წვდომა აქვთ. Backend guards გამოვიყენე access control-ისთვის და დავამატე fake money transfer flow, რომელსაც admin approval სჭირდება.",
+        "stack": ["React", "Tailwind CSS", "TypeScript", "Node.js", "Nest.js", "PostgreSQL", "Prisma"],
+        "image": "/projects/saas.PNG",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://saas-client-iota.vercel.app/"
+        }
+      },
+      {
+        "title": "Multitenancy",
+        "description": "Multitenancy არის shared-database და shared-schema multi-tenant აპლიკაცია. კომპანიებს შეუძლიათ organization-ის რეგისტრაცია და თავიანთ tenant სივრცეში tasks-ის მართვა. პროექტმა tenant-aware architecture და organization-level data separation პრაქტიკულად დამამუშავებინა.",
+        "stack": ["React", "Tailwind CSS", "TypeScript", "Node.js", "Nest.js", "PostgreSQL", "Prisma"],
         "image": null,
         "link": {
           "label": "ნახვა",
-          "href": "https://evently-zura.vercel.app/"
+          "href": "https://multitenancy-client.vercel.app/"
         }
       },
       {
         "title": "AI Chat",
         "description": "AI Chat არის real-time AI ჩატის აპლიკაცია, სადაც მომხმარებლებს შეუძლიათ შესვლა და შენახული conversations-ის მოგვიანებით გაგრძელება. პასუხები live stream-დება, ხოლო assistant previous conversation context-ს იყენებს უკეთესი პასუხებისთვის. გამოცდილება ფოკუსირებულია სწრაფ chat-ზე, persistent history-ზე და natural follow-up questions-ზე.",
-        "stack": [
-          "React",
-          "Vite",
-          "Tailwind CSS",
-          "TypeScript",
-          "Express.js",
-          "Gemini SDK",
-          "Socket.IO",
-          "JWT"
-        ],
+        "stack": ["React", "Vite", "Tailwind CSS", "TypeScript", "Express.js", "Gemini SDK", "Socket.IO", "JWT"],
         "image": "/projects/ai-chat.PNG",
         "link": {
           "label": "ნახვა",
@@ -419,16 +416,39 @@
         }
       },
       {
+        "title": "Xstore",
+        "description": "Xstore არის ecommerce პლატფორმა ტექნოლოგიური პროდუქტების ძიებისა და შეძენის იმიტირებული პროცესისთვის. მომხმარებლებს შეუძლიათ პროდუქტების ძებნა, გაფილტვრა, ფავორიტებში დამატება, კალათაში ჩასმა და fake purchase flow-ის დასრულება. პროექტი ფოკუსირებულია მკაფიო product discovery-ზე, მარტივ shopping actions-ზე და დახვეწილ checkout journey-ზე.",
+        "stack": ["Next.js", "Server Actions", "Tailwind CSS", "TypeScript", "MongoDB", "OAuth", "Stripe"],
+        "image": "/projects/xstore.PNG",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://xstore-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "Evently",
+        "description": "Evently არის event booking სისტემა ღონისძიებების პოვნისა და ბილეთების შეძენისთვის. მომხმარებლებს შეუძლიათ შესვლა, პროფილის მართვა, დავიწყებული პაროლის აღდგენა, events-ის ფავორიტებში დამატება და booked events-ის ნახვა. Admin-ს შეუძლია events-ის შექმნა და რედაქტირება, ხოლო sold-out dates და unavailable tickets მკაფიოდ მუშავდება.",
+        "stack": ["Next.js", "Server Actions", "Stripe", "Tailwind CSS", "TypeScript", "MongoDB"],
+        "image": null,
+        "link": {
+          "label": "ნახვა",
+          "href": "https://evently-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "Instakilo",
+        "description": "Instakilo არის Instagram-ის სტილის social media აპლიკაცია. მომხმარებლებს შეუძლიათ პოსტების დამატება, მოწონება, კომენტარის დაწერა, შენახვა, გაზიარება, სხვა მომხმარებლების მონიშვნა, stories-ის დამატება, messaging და notifications-ის მიღება. ასევე აქვს story და post archiving, user search, explore page და მდიდარი social interactions.",
+        "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Prisma", "Socket.IO", "Cloudinary"],
+        "image": "/projects/instakilo.PNG",
+        "link": {
+          "label": "ნახვა",
+          "href": "https://instakilo-client.vercel.app/"
+        }
+      },
+      {
         "title": "Moviefy",
         "description": "Moviefy არის movie discovery გვერდი, რომელიც Codex-ით სწრაფად ავაწყე. მომხმარებლებს შეუძლიათ featured movies-ის ნახვა, სახელით ძებნა და movie detail pages-ის გახსნა actors-ით, trailers-ით, reviews-ით და image galleries-ით. სურათზე დაჭერისას იხსნება modal carousel movie visuals-ის სანახავად.",
-        "stack": [
-          "Next.js",
-          "API Routes",
-          "TypeScript",
-          "Tailwind CSS",
-          "next-i18n",
-          "TMDB API"
-        ],
+        "stack": ["Next.js", "API Routes", "TypeScript", "Tailwind CSS", "next-i18n", "TMDB API"],
         "image": "/projects/moviefy.PNG",
         "link": {
           "label": "ნახვა",

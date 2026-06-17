@@ -18,7 +18,7 @@ export function PersonalProjectsGrid({ projects }: PersonalProjectsGridProps) {
           contentClassName="grid md:grid-cols-[0.82fr_1.18fr]"
           key={project.title}
         >
-          <div className="relative min-h-56 border-b border-border-100 md:border-b-0 md:border-r">
+          <div className="relative min-h-56 overflow-hidden rounded-t-lg border-b border-border-100 md:rounded-l-lg md:rounded-tr-none md:border-b-0 md:border-r">
             {project.image ? (
               <Image
                 alt={project.imageAlt ?? project.title}

@@ -292,72 +292,69 @@
     ],
     "personalProjects": [
       {
-        "title": "Xstore",
-        "description": "Xstore is an ecommerce platform for browsing and buying tech products. Users can search, filter, favorite products, add items to cart, and complete a fake purchase flow. The experience focuses on clear product discovery, simple shopping actions, and a polished checkout journey.",
-        "stack": [
-          "Next.js",
-          "Server Actions",
-          "Tailwind CSS",
-          "TypeScript",
-          "MongoDB",
-          "OAuth",
-          "Stripe"
-        ],
-        "image": "/projects/xstore.PNG",
+        "title": "Forkify",
+        "description": "Forkify was my first serious website built from top to bottom. Users can search recipes, browse paginated results, adjust servings, and bookmark recipes. It helped me build a real foundation in React hooks, state, effects, and event handling.",
+        "stack": ["React", "CSS", "JavaScript"],
+        "image": "/projects/forkify.PNG",
         "link": {
           "label": "Visit",
-          "href": "https://xstore-zura.vercel.app/"
+          "href": "https://forkify-zura.netlify.app/"
         }
       },
       {
-        "title": "Instakilo",
-        "description": "Instakilo is a social media app inspired by Instagram. Users can create posts, like, comment, save, share, tag people, add stories, message others, and receive notifications. It also includes story and post archiving, user search, explore pages, and rich social interactions.",
-        "stack": [
-          "Next.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Express.js",
-          "PostgreSQL",
-          "Prisma",
-          "Socket.IO",
-          "Cloudinary"
-        ],
-        "image": "/projects/instakilo.PNG",
+        "title": "UsePopcorn",
+        "description": "UsePopcorn is a movie search app that pushed my React skills further. Users can search movies, add them to favorites, rate them, and review stats like average rating and duration. Favorite movies can also be sorted by IMDb rating, personal rating, duration, and more.",
+        "stack": ["React", "CSS", "JavaScript"],
+        "image": "/projects/usepopcorn.PNG",
         "link": {
           "label": "Visit",
-          "href": "https://instakilo-client.vercel.app/"
+          "href": "https://usepopcorn-zura.netlify.app/"
         }
       },
       {
-        "title": "Evently",
-        "description": "Evently is an event booking system for discovering events and buying tickets. Users can sign in, manage profiles, reset forgotten passwords, favorite events, and view booked events. Admins can create and edit events, while sold-out dates and unavailable tickets are handled clearly.",
-        "stack": [
-          "Next.js",
-          "Server Actions",
-          "Stripe",
-          "Tailwind CSS",
-          "TypeScript",
-          "MongoDB"
-        ],
+        "title": "Fast Pizza",
+        "description": "Fast Pizza was the next step in my React learning path. Users can create a fake food order, manage cart items, and move through multiple app pages. I used Redux for cart state and React Router for navigation.",
+        "stack": ["React", "Tailwind CSS", "JavaScript", "React Router", "Redux"],
+        "image": "/projects/fast-pizza.PNG",
+        "link": {
+          "label": "Visit",
+          "href": "https://fastpizza-zura.netlify.app/"
+        }
+      },
+      {
+        "title": "Shopping Cart",
+        "description": "Shopping Cart was my first full-stack application. Users can fetch and browse clothing data served from a backend. I designed the MongoDB schema for clothes and built server-side CRUD operations with Node and Express.",
+        "stack": ["React", "Tailwind CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+        "image": "/projects/shopping-cart.PNG",
+        "link": {
+          "label": "Visit",
+          "href": "https://shopping-cart-client-six.vercel.app/"
+        }
+      },
+      {
+        "title": "Saas",
+        "description": "Saas is a subscription-style application with advanced authentication and plan-based access. Users can sign up, choose a plan, and see posts allowed by their selected tier. I used backend guards for access control and added a fake money transfer flow that requires admin approval.",
+        "stack": ["React", "Tailwind CSS", "TypeScript", "Node.js", "Nest.js", "PostgreSQL", "Prisma"],
+        "image": "/projects/saas.PNG",
+        "link": {
+          "label": "Visit",
+          "href": "https://saas-client-iota.vercel.app/"
+        }
+      },
+      {
+        "title": "Multitenancy",
+        "description": "Multitenancy is a shared-database, shared-schema multi-tenant application. Companies can register their organization and manage tasks inside their own tenant space. The project helped me practice tenant-aware architecture and organization-level data separation.",
+        "stack": ["React", "Tailwind CSS", "TypeScript", "Node.js", "Nest.js", "PostgreSQL", "Prisma"],
         "image": null,
         "link": {
           "label": "Visit",
-          "href": "https://evently-zura.vercel.app/"
+          "href": "https://multitenancy-client.vercel.app/"
         }
       },
       {
         "title": "AI Chat",
         "description": "AI Chat is a realtime AI messaging app where users can log in and continue saved conversations later. Answers stream live, and the assistant uses previous conversation context for better responses. The experience is built around fast chat, persistent history, and natural follow-up questions.",
-        "stack": [
-          "React",
-          "Vite",
-          "Tailwind CSS",
-          "TypeScript",
-          "Express.js",
-          "Gemini SDK",
-          "Socket.IO",
-          "JWT"
-        ],
+        "stack": ["React", "Vite", "Tailwind CSS", "TypeScript", "Express.js", "Gemini SDK", "Socket.IO", "JWT"],
         "image": "/projects/ai-chat.PNG",
         "link": {
           "label": "Visit",
@@ -365,16 +362,39 @@
         }
       },
       {
+        "title": "Xstore",
+        "description": "Xstore is an ecommerce platform for browsing and buying tech products. Users can search, filter, favorite products, add items to cart, and complete a fake purchase flow. The experience focuses on clear product discovery, simple shopping actions, and a polished checkout journey.",
+        "stack": ["Next.js", "Server Actions", "Tailwind CSS", "TypeScript", "MongoDB", "OAuth", "Stripe"],
+        "image": "/projects/xstore.PNG",
+        "link": {
+          "label": "Visit",
+          "href": "https://xstore-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "Evently",
+        "description": "Evently is an event booking system for discovering events and buying tickets. Users can sign in, manage profiles, reset forgotten passwords, favorite events, and view booked events. Admins can create and edit events, while sold-out dates and unavailable tickets are handled clearly.",
+        "stack": ["Next.js", "Server Actions", "Stripe", "Tailwind CSS", "TypeScript", "MongoDB"],
+        "image": null,
+        "link": {
+          "label": "Visit",
+          "href": "https://evently-zura.vercel.app/"
+        }
+      },
+      {
+        "title": "Instakilo",
+        "description": "Instakilo is a social media app inspired by Instagram. Users can create posts, like, comment, save, share, tag people, add stories, message others, and receive notifications. It also includes story and post archiving, user search, explore pages, and rich social interactions.",
+        "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Prisma", "Socket.IO", "Cloudinary"],
+        "image": "/projects/instakilo.PNG",
+        "link": {
+          "label": "Visit",
+          "href": "https://instakilo-client.vercel.app/"
+        }
+      },
+      {
         "title": "Moviefy",
         "description": "Moviefy is a movie discovery page built quickly with Codex. Users can view featured movies, search by name, and open movie detail pages with actors, trailers, reviews, and image galleries. Clicking an image opens a modal carousel for browsing movie visuals.",
-        "stack": [
-          "Next.js",
-          "API Routes",
-          "TypeScript",
-          "Tailwind CSS",
-          "next-i18n",
-          "TMDB API"
-        ],
+        "stack": ["Next.js", "API Routes", "TypeScript", "Tailwind CSS", "next-i18n", "TMDB API"],
         "image": "/projects/moviefy.PNG",
         "link": {
           "label": "Visit",
