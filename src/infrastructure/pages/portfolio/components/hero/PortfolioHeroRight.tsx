@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { ShinyCard } from "@/infrastructure/libs";
 import type { PortfolioContent } from "../../types";
 
 type PortfolioHeroRightProps = {
@@ -30,17 +31,14 @@ export function PortfolioHeroRight({
         </div>
         <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
           {profile.metrics.map((metric) => (
-            <div
-              className="card-gradient rounded-lg border border-border-100 p-5 shadow-sm"
-              key={metric.label}
-            >
+            <ShinyCard key={metric.label}>
               <p className="text-3xl font-semibold text-primary-700 dark:text-primary-600">
                 {metric.value}
               </p>
               <p className="mt-2 text-sm leading-6 text-muted-700 dark:text-muted-700">
                 {metric.label}
               </p>
-            </div>
+            </ShinyCard>
           ))}
         </div>
       </div>

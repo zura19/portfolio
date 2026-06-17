@@ -2,7 +2,7 @@
 
 import { useReducedMotion } from "framer-motion";
 import type { PortfolioContent } from "../../types";
-import { SectionGradient } from "../shared/SectionGradient";
+import { LineWavesBackground } from "./LineWavesBackground";
 import { PortfolioHeroLeft } from "./PortfolioHeroLeft";
 import { PortfolioHeroRight } from "./PortfolioHeroRight";
 
@@ -16,7 +16,7 @@ export function PortfolioHero({ content }: PortfolioHeroProps) {
 
   return (
     <section className="relative overflow-hidden px-5 pb-16 pt-36 sm:px-8 lg:px-12">
-      <SectionGradient variant="hero" />
+      <LineWavesBackground prefersReducedMotion={prefersReducedMotion} />
       <div className="relative z-10 mx-auto grid min-h-[82svh] max-w-7xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <PortfolioHeroLeft
           prefersReducedMotion={prefersReducedMotion}

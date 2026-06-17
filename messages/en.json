@@ -52,6 +52,11 @@
       "eyebrow": "Full-stack developer in Tbilisi",
       "name": "Zura Managadze",
       "role": "Middle Full-stack Developer",
+      "roleRotator": {
+        "prefix": "Middle",
+        "words": ["Full-stack", "Frontend", "Backend"],
+        "suffix": "Developer"
+      },
       "location": "Tbilisi, Georgia",
       "availability": "Building AI-powered systems, SaaS platforms, and commerce products",
       "summary": "I build modern product platforms across frontend and backend, with experience in Next.js, React, TypeScript, Nest.js, Express, databases, authentication, payments, dashboards, and AI-assisted workflows.",

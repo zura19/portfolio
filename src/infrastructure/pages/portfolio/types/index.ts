@@ -77,6 +77,11 @@ export type PortfolioContent = {
     eyebrow: string;
     name: string;
     role: string;
+    roleRotator: {
+      prefix: string;
+      words: string[];
+      suffix: string;
+    };
     location: string;
     availability: string;
     summary: string;

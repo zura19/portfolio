@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "@/infrastructure/libs";
 import type { PortfolioContent } from "../../types";
+import { RotatingRoleText } from "./RotatingRoleText";
 
 type PortfolioHeroLeftProps = {
   prefersReducedMotion: boolean | null;
@@ -24,13 +25,14 @@ export function PortfolioHeroLeft({
       <p className="text-sm font-semibold text-primary-700 dark:text-primary-600">
         {profile.eyebrow}
       </p>
-      <h1 className="text-gradient mt-6 max-w-4xl text-5xl font-semibold leading-tight">
+      <h1 className="text-gradient mt-6 max-w-4xl text-5xl sm:text-7xl font-black leading-tight">
         {profile.name}
       </h1>
-      <p className="mt-4 text-2xl font-medium text-muted-700 dark:text-muted-700">
-        {profile.role}
-      </p>
-      <p className="mt-6 max-w-2xl text-lg leading-9 text-muted-700 dark:text-muted-700">
+      <RotatingRoleText
+        prefersReducedMotion={prefersReducedMotion}
+        profile={profile}
+      />
+      <p className="mt-6 text-lg leading-9  text-muted-700 dark:text-muted-700">
         {profile.summary}
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-3 lg:justify-start">

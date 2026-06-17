@@ -52,6 +52,11 @@
       "eyebrow": "Full-stack დეველოპერი თბილისიდან",
       "name": "ზურა მანაგაძე",
       "role": "Middle Full-stack დეველოპერი",
+      "roleRotator": {
+        "prefix": "Middle",
+        "words": ["Full-stack", "Frontend", "Backend"],
+        "suffix": "დეველოპერი"
+      },
       "location": "თბილისი, საქართველო",
       "availability": "ვქმნი AI-ზე დაფუძნებულ სისტემებს, SaaS პლატფორმებს და commerce პროდუქტებს",
       "summary": "ვქმნი თანამედროვე პროდუქტის პლატფორმებს frontend-სა და backend-ში. გამოცდილება მაქვს Next.js, React, TypeScript, Nest.js, Express, მონაცემთა ბაზებთან, ავთენტიფიკაციასთან, გადახდებთან, dashboards-თან და AI-ის დახმარებით სამუშაო პროცესებთან.",

@@ -1,4 +1,4 @@
-import { LinkButtonGroup } from "@/infrastructure/libs";
+import { LinkButtonGroup, ShinyCard } from "@/infrastructure/libs";
 import type { PortfolioContent } from "../../types";
 
 type ContactSectionProps = {
@@ -16,7 +16,7 @@ export function ContactSection({ contact }: ContactSectionProps) {
   ];
 
   return (
-    <div className="panel-gradient rounded-lg border border-border-100 p-8 text-center shadow-sm sm:text-left">
+    <ShinyCard className="p-8 text-center sm:text-left" glowSize={720}>
       <h3 className="mx-auto max-w-2xl text-3xl font-semibold leading-tight text-foreground sm:mx-0">
         {contact.title}
       </h3>
@@ -34,6 +34,6 @@ export function ContactSection({ contact }: ContactSectionProps) {
         links={contact.links}
         variant="ghost"
       />
-    </div>
+    </ShinyCard>
   );
 }

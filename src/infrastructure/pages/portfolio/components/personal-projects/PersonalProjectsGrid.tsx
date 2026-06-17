@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Badge, LinkButtonGroup } from "@/infrastructure/libs";
+import { Badge, LinkButtonGroup, ShinyCard } from "@/infrastructure/libs";
 import type { PersonalProjectItem } from "../../types";
 import { PersonalProjectPreview } from "./PersonalProjectPreview";
 
@@ -13,8 +13,9 @@ export function PersonalProjectsGrid({ projects }: PersonalProjectsGridProps) {
   return (
     <div className="grid gap-5">
       {projects.map((project) => (
-        <article
-          className="card-gradient grid overflow-hidden rounded-lg border border-border-100 shadow-sm md:grid-cols-[0.82fr_1.18fr]"
+        <ShinyCard
+          className="p-0"
+          contentClassName="grid md:grid-cols-[0.82fr_1.18fr]"
           key={project.title}
         >
           <div className="relative min-h-56 border-b border-border-100 md:border-b-0 md:border-r">
@@ -56,7 +57,7 @@ export function PersonalProjectsGrid({ projects }: PersonalProjectsGridProps) {
               links={[project.link]}
             />
           </div>
-        </article>
+        </ShinyCard>
       ))}
     </div>
   );
