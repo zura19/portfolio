@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Outfit } from "next/font/google";
+import { Geist_Mono, Outfit, Inter } from "next/font/google";
+import { cn } from "@/infrastructure/libs";
 import { ThemeProvider } from "@/providers/theme-provider";
 import "./globals.css";
+
+const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -28,7 +31,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${outfit.variable} ${geistMono.variable} h-full antialiased`}
+      className={cn("h-full", "antialiased", outfit.variable, geistMono.variable, "font-sans", inter.variable)}
     >
       <body className="flex min-h-full flex-col">
         <ThemeProvider>{children}</ThemeProvider>

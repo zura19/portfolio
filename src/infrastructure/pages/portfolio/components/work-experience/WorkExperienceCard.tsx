@@ -27,7 +27,12 @@ export function WorkExperienceCard({
     >
       <ShinyCard className="h-full p-0" contentClassName="flex h-full flex-col">
         <div className="relative aspect-video border-b border-border-100 bg-surface-200">
-          <Image alt={item.imageAlt} className="object-cover" fill src={item.image} />
+          <Image
+            alt={item.imageAlt}
+            className="object-cover"
+            fill
+            src={item.image}
+          />
           <div className="absolute inset-0 bg-[linear-gradient(135deg,transparent_42%,color-mix(in_srgb,var(--primary-500)_24%,transparent)),linear-gradient(180deg,transparent_58%,color-mix(in_srgb,var(--background)_46%,transparent))]" />
         </div>
         <div className="flex flex-1 flex-col p-6">
@@ -40,7 +45,7 @@ export function WorkExperienceCard({
                 {item.name}
               </h3>
             </div>
-            <Badge className="shrink-0" variant="primary">
+            <Badge className="shrink-0 mx-auto sm:mx-0" variant="primary">
               {item.period}
             </Badge>
           </div>
@@ -65,7 +70,7 @@ export function WorkExperienceCard({
             ))}
           </ul>
           <LinkButtonGroup
-            className="mt-auto justify-center pt-5 sm:justify-start"
+            className="mt-auto justify-center pt-5 sm:justify-start "
             links={item.links}
           />
         </div>
