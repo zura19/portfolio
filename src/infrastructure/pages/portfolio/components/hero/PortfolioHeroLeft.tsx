@@ -22,9 +22,6 @@ export function PortfolioHeroLeft({
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className="text-center lg:text-left"
     >
-      <p className="text-sm font-semibold text-primary-700 dark:text-primary-600">
-        {profile.eyebrow}
-      </p>
       <h1 className="text-gradient mt-6 max-w-4xl text-5xl sm:text-7xl font-black leading-tight">
         {profile.name}
       </h1>

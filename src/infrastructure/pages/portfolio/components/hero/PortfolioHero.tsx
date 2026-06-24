@@ -23,8 +23,8 @@ export function PortfolioHero({ content }: PortfolioHeroProps) {
           profile={profile}
         />
         <PortfolioHeroRight
+          content={content}
           prefersReducedMotion={prefersReducedMotion}
-          profile={profile}
         />
       </div>
     </section>
